@@ -62,17 +62,11 @@ with open(file_to_load) as election_data:
 # Iterate through the candidate list.
 for candidate_name in candidate_votes:
     # Retrieve vote count of a candidate.
-    votes = candidate_votes[candidate_name]
+    votes = candidgit aate_votes[candidate_name]
     # Calculate the percentage of votes.
     vote_percentage = float(votes) / float(total_votes) * 100
-    # Print the candidate name and percentage of votes.
-    # print(f"{candidate_name}: received {round(vote_percentage, 1)}% of the vote.")
-    # To do: print out the winning candidate, vote count and percentage to
-    # terminal.
+    # Print the candidate name, percentage of votes and number of votes
     print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
-
-     #  To do: print out each candidate's name, vote count, and percentage of
-    # votes to the terminal.
 
     # Determine winning vote count and candidate
     # Determine if the votes is greater than the winning count.
@@ -84,8 +78,7 @@ for candidate_name in candidate_votes:
          # And, set the winning_candidate equal to the candidate's name.
          winning_candidate = candidate_name
 
-    
-
+# Print out the winning candidate, vote count and percentage to terminal 
 winning_candidate_summary = (
     f"-------------------------\n"
     f"Winner: {winning_candidate}\n"
