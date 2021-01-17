@@ -6,12 +6,11 @@ A Colorado Board of Elections employee has been tasked to do an election audit f
 ### Purpose 
 The purpose of this analysis is to generate a vote count report to certify this congressional race by determining and reporting:
 
-* The total number of votes cast
-* The voter turnout count for each county and percentage of votes from each county out of the total 
+* The total number of votes casted
+* The voter turnout count and percentage of votes for each county
 * The county with the highest turnout
 * The list of candidates who received votes
-* The total number of votes that each candidate received
-* The percentage of votes for each candidate won
+* The total number of votes and percentage of votes each candidate won
 * The winner of the election based on popular vote
 
 ## Analysis 
