@@ -1,7 +1,7 @@
 # Election Audit Analysis
 
 ## Overview 
-A Colorado Board of Elections employee, Tom, has been tasked to do an election audit for a local congressional district. The election commission also wishes to automate the process so that it may be used to audit other elections as well.
+A Colorado Board of Elections employee has been tasked to do an election audit for a local congressional district. The election commission also wishes to automate the process so that it may be used to audit other elections as well.
 
 ### Purpose 
 The purpose of this analysis is to generate a vote count report to certify this congressional race by determining and reporting:
@@ -15,7 +15,6 @@ The purpose of this analysis is to generate a vote count report to certify this 
 * The winner of the election based on popular vote
 
 ## Analysis 
-The data set used is listed below. The CSV file was processed using Python (v3.6.6) to ____ the potential of automating the analysis process. 
 
 Data Source: [Elections Data Set](Resources/election_results.csv)
 
@@ -59,8 +58,6 @@ The above is the screenshot of the analysis results printed on a text file which
 
 ## Summary
 
-There is a statement to the election commission that explores how this script can be used for any election, with two examples for modifying the script. (4 pt)
-
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
-
-✓There is a statement to the election commission on how this script can be used for any election with two examples given.
+[//]: # "In a summary statement, provide a business proposal to the election commission on how this script can be used—with some 
+modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections
+There is a statement to the election commission on how this script can be used for any election with two examples given."
