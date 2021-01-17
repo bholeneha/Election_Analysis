@@ -25,12 +25,12 @@ Analysis Code: [PyPoll_Challenge](PyPoll_Challenge.py)
 
 ![Election Results As Printed on the Text File](Images/TextFileOutput.PNG)
 
-The above is the screenshot of the analysis results printed on a text file which can be found here: [Election Results](Analysis/election_results.txt)
+Above is the screenshot of the analysis results written to a text file which can be found here: [Election Results](Analysis/election_results.txt)
 
 
 * **Total Votes**
         
-        There were 369,711 total votes cast in this election.
+        There were 369,711 total votes casted in this election.
 
 * **County Voter Turnout**
 
