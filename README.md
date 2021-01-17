@@ -1,7 +1,7 @@
 # Election Audit Analysis
 
 ## Overview 
-A Colorado Board of Elections employee has been tasked to do an election audit for a local congressional district. The election commission also wishes to automate the process so that it may be used to audit other elections as well.
+A Colorado Board of Elections employee has been tasked to do an election audit for a local congressional district. The election commission also wishes to automate the process so that it may be used to audit other election results. 
 
 ### Purpose 
 The purpose of this analysis is to generate a vote count report to certify this congressional race by determining and reporting:
@@ -61,3 +61,25 @@ The above is the screenshot of the analysis results printed on a text file which
 [//]: # "In a summary statement, provide a business proposal to the election commission on how this script can be used—with some 
 modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections
 There is a statement to the election commission on how this script can be used for any election with two examples given."
+
+There is a number of ways this script can be modified to automate the process of analysizing election results. Here are two ways this can be done:
+
+### Using variables to find the index for "Candidate" and "County" in the header list
+Using index method to retrieve the index of "Candidate" and "County" will allow the program to find the right column regardless of the order of the columns in a csv file. The code will scan through the header row to find the keyword and save the index of the keyword in a variable.
+
+![Refactored Candidate Index](Images/RefactoredCandidateIndex.PNG)
+![Refactored County Index](Images/RefactoredCountyIndex.PNG)
+
+This variable than can be used in the for loops later to caculate the total votes for each candidate and county (as shown below).
+
+![Refactored For Loop](Images/RefactoredForLoop.PNG)
+
+
+
+### Using a keyword list to loop through the column header to find the right index
+The election result files may also have variations of the keywords "Candidate" and "County" in their header row. This script can be further modified to loop through a keyword list to look for any of these variations, find the right column, and save the index (For loops on line 55 and line 62).
+![Refactored Code](Images/RefactoredCode.PNG)
+
+A code for failing the if statement was added (line 68) to ensure the program exits if it cannot find the keywords listed in the header row. 
+
+There are many more ways this script can be automated. For example, taking user input for various purposes, such as: file names, file paths, adding more keywords to the keywords list, can further help the election commission use this code to analyze different files, despite the arrangement of data in the files.  
