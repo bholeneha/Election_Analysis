@@ -53,7 +53,8 @@ Above is the screenshot of the analysis results written to a text file which can
 
 * **Election Winner**
 
-        Diana DeGette won the election in this precinct. She received 272,892 votes, which is 73.8% of the total votes cast in the election. 
+        Diana DeGette won the election in this precinct. 
+        She received 272,892 votes, which is 73.8% of the total votes cast in the election. 
 
 ## Summary
 
