@@ -35,9 +35,9 @@ Above is the screenshot of the analysis results written to a text file which can
 * **County Voter Turnout**
 
         The three counties in this precinct and their voter turnouts are as follows:
-            Jefferson - 38,855 votes or 10.5% of the total votes
-            Denver - 206,055 votes or 82.8% of the total votes
-            Aprapahoe - 24,801 votes or 6.7% of the total votes
+            Jefferson - 38,855 votes or 10.5% of the total votes.
+            Denver - 206,055 votes or 82.8% of the total votes.
+            Aprapahoe - 24,801 votes or 6.7% of the total votes.
 
 * **Largest County Voter Turnout**
 
@@ -46,21 +46,19 @@ Above is the screenshot of the analysis results written to a text file which can
 * **Candidates and Respective Vote Counts**
 
         The three candidates and their votes they received are as follows:
-            Charles Casper Stockholm - 85,213 votes or 23% of the total votes
-            Diana DeGette - 272,892 votes or 73.8% of the total votes 
-            Raymon Anthony Doane - 11,606 votes or 3.1% of the total votes
-
+            Charles Casper Stockholm - 85,213 votes or 23% of the total votes.
+            Diana DeGette - 272,892 votes or 73.8% of the total votes.
+            Raymon Anthony Doane - 11,606 votes or 3.1% of the total votes.
 
 * **Election Winner**
 
         Diana DeGette won the election in this precinct. 
-        She received 272,892 votes, which is 73.8% of the total votes cast in the election. 
+        She received 272,892 votes, which is 73.8% of the total votes casted in the election. 
 
 ## Summary
 
 [//]: # "In a summary statement, provide a business proposal to the election commission on how this script can be used—with some 
-modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections
-There is a statement to the election commission on how this script can be used for any election with two examples given."
+modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections"
 
 There is a number of ways this script can be modified to automate the process of analysizing election results. Here are two ways this can be done:
 
