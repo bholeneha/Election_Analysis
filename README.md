@@ -81,4 +81,4 @@ The election result files may also have variations of the keywords "Candidate" a
 
 A code for failing the if statement was added (line 68) to ensure the program exits if it cannot find the keywords in the header row. 
 
-There are many more ways this script can be automated. For example, taking user input for various purposes, such as: file names, file paths, adding more keywords to the keywords list, can further help the election commission use this code to analyze different files, regardless of the naming of the header or arrangement of the data in the files.  
+There are many more ways this script can be automated. For example, taking user input for various purposes, such as: file names, file paths, adding more keywords to the keywords list, can further help the election commission use this code to analyze different files, regardless of the naming of the headers or arrangement of the data in the files.  
